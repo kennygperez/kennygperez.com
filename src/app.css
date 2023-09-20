@@ -1,3 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import './styles/base.css';
+@import './styles/components.css';
+@import './styles/utilities.css';
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;900&display=swap');
+
+/* monaSans */
+@font-face {
+  font-family: 'MonaSans';
+  src: url(/Mona-Sans.var.woff2) format('woff2');
+  font-display: swap;
+  font-weight: 200 900;
+}
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-mona-sans: 'MonaSans', Arial;
+}
