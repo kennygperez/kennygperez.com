@@ -1,8 +1,13 @@
 <script lang="ts">
-  import { Linkedin as LinkedInIcon, ExternalLink as ExternalLinkIcon, Github as GithubIcon } from 'lucide-svelte';
+  import {
+    Linkedin as LinkedInIcon,
+    ExternalLink as ExternalLinkIcon,
+    Github as GithubIcon,
+    File as FileIcon,
+  } from 'lucide-svelte';
 
   export let href: string;
-  export let icon: 'link' | 'github' | 'linkedin';
+  export let icon: 'link' | 'github' | 'linkedin' | 'file';
   export let target: null | '_blank' = null;
   export let className: string = '';
 </script>
@@ -22,6 +27,8 @@
     <LinkedInIcon size={16} aria-hidden={true} />
   {:else if icon === 'github'}
     <GithubIcon size={16} aria-hidden={true} />
+  {:else if icon === 'file'}
+    <FileIcon size={16} aria-hidden={true} />
   {/if}
 
   <span class="self-baseline text-white">

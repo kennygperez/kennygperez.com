@@ -17,4 +17,5 @@
   <IconLink href="https://www.linkedin.com/in/kennygperez/" icon="linkedin" className="flex-none" target="_blank"
     >LinkedIn</IconLink
   >
+  <IconLink href="/kennygperez_resume_2023.pdf" icon="file" className="flex-none" target="_blank">Resume</IconLink>
 </div>
