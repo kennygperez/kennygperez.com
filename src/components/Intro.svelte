@@ -13,8 +13,8 @@
   achieve.
 </p>
 <div class="mt-6 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
-  <IconLink href="https://github.com/kennygperez" icon="github" className="flex-none">GitHub</IconLink>
-  <IconLink href="https://www.linkedin.com/in/kennygperez/" icon="linkedin" className="flex-none" large={true}>
-    LinkedIn
-  </IconLink>
+  <IconLink href="https://github.com/kennygperez" icon="github" className="flex-none" target="_blank">GitHub</IconLink>
+  <IconLink href="https://www.linkedin.com/in/kennygperez/" icon="linkedin" className="flex-none" target="_blank"
+    >LinkedIn</IconLink
+  >
 </div>

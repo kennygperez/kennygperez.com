@@ -2,6 +2,7 @@
   "name": "kennygperez.com",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -21,6 +22,7 @@
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte": "^2.30.0",
+    "lucide-svelte": "^0.279.0",
     "postcss": "^8.4.30",
     "prettier": "^2.8.0",
     "prettier-plugin-svelte": "^2.10.1",
@@ -31,6 +33,5 @@
     "typescript": "^5.0.0",
     "uuid": "^9.0.1",
     "vite": "^4.4.2"
-  },
-  "type": "module"
+  }
 }
