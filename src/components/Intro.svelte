@@ -3,7 +3,7 @@
 </script>
 
 <h1 class="mt-14 font-display text-4xl/tight font-light text-white">
-  Kenny G Perez a Florida based,
+  I'm Kenny G Perez, a
   <span class="text-sky-300"> Software Engineer</span>
 </h1>
 <p class="mt-4 text-sm/6 text-gray-300">
