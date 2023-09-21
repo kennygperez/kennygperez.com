@@ -1,6 +1,22 @@
 # [kennygperez.com](https://www.kennygperez.com)
 
+## Abstract
+
 This repository contains the source code for my personal portfolio website. My inspiration for this project came from [TailwindUI Commit Template](https://tailwindui.com/templates/commit). I have developed a deep affection for [Svelte](https://svelte.dev), particularly when used in conjunction with [SvelteKit](https://kit.svelte.dev/). In this project, I've taken the template originally designed for React and Next.js, as provided by TailwindUI, and recreated it using Svelte. This endeavor not only demonstrates my proficiency with the React.js library and the Next.js framework but also showcases my ability to quickly learn and adapt to new technologies, as I only started using Svelte a year ago.
+
+### Credit
+
+#### Stack
+
+- [SvelteKit](https://kit.svelte.dev)
+- [TailwindCSS](https://tailwindcss.com)
+- [Netlify](https://www.netlify.com)
+
+#### Sources
+
+- [Lucide Icon](https://lucide.dev)
+- [FavFarm Icon](https://fav.farm/)
+- [TailWindUI](https://tailwindui.com)
 
 ## create-svelte
 
