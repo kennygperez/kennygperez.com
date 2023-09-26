@@ -13,6 +13,25 @@ export type ContentItem = {
 
 export const contents: ContentItem[] = [
   {
+    image: '/images/female-streamer-waith-pc-setup-and-super-builder-overlay.jpeg',
+    title: 'Visuals by Impulse - Super Maker',
+    brief: [
+      'Led a small team in the development of Super Maker, a first-of-its-kind tool designed for streamers and video editors. Super Maker empowers users to effortlessly create professional overlay animations within their web browsers. Subsequently, the server generates an MP4 file incorporating all the assets provided by the user.',
+      'I was responsible for establishing the cloud infrastructure, where I created three dedicated microservices to dynamically provision AWS EC2 instances based on demand. One of these microservices efficiently managed the queue of incoming requests, while the last one served as a general REST API on AWS Elastic Beanstalk. We utilized AWS SQS, AWS Lambda, and AWS CloudFormation in this infrastructure setup. Simultaneously, I played an integral role in implementing the backend server using Node.js and TypeScript.',
+    ],
+    stamp: new Date(2021, 7, 0),
+    media: [
+      {
+        txt: 'Live Site',
+        url: new URL('https://visualsbyimpulse.com/tools/super-maker/'),
+      },
+      {
+        txt: 'YouTube Coverage',
+        url: new URL('https://youtu.be/qMNGameLGYs?si=vF6VdH2eYVC8uap7&t=47'),
+      },
+    ],
+  },
+  {
     image: '/images/lachlan.jpeg',
     title: 'Lachlan - Computer Vision Facecam',
     brief: [
