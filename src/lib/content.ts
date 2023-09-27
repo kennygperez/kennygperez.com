@@ -11,6 +11,13 @@ export type ContentItem = {
   media: ContentMediaItem[];
 };
 
+const ac: ContentMediaItem = {
+  txt: 'Acquisition Coverage',
+  url: new URL(
+    'https://ir.corsair.com/news-releases/news-release-details/great-content-design-corsair-acquires-visuals-impulse'
+  ),
+};
+
 export const contents: ContentItem[] = [
   {
     image: '/images/female-streamer-waith-pc-setup-and-super-builder-overlay.jpeg',
@@ -29,6 +36,7 @@ export const contents: ContentItem[] = [
         txt: 'YouTube Coverage',
         url: new URL('https://youtu.be/qMNGameLGYs?si=vF6VdH2eYVC8uap7&t=47'),
       },
+      ac,
     ],
   },
   {
@@ -47,6 +55,7 @@ export const contents: ContentItem[] = [
         txt: 'YouTube Coverage',
         url: new URL('https://www.youtube.com/watch?v=mFDWtOfQELo&list=WL&index=25&t=295s'),
       },
+      ac,
     ],
   },
   {
