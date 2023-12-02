@@ -55,6 +55,10 @@ export const contents: ContentItem[] = [
         txt: 'YouTube Coverage',
         url: new URL('https://www.youtube.com/watch?v=mFDWtOfQELo&list=WL&index=25&t=295s'),
       },
+      {
+        txt: 'Point Zero Case Study',
+        url: new URL('https://pointzero.design/work/lachlan'),
+      },
       ac,
     ],
   },
@@ -83,12 +87,6 @@ export const contents: ContentItem[] = [
       'I developed a preparatory CRM software to allow VBI to manage their custom design projects, client relationships, and handle payments. I was the lead programmer on this managing a small team. We utilized Node+Express and MongoDB on the backend. VueJS on the frontend.',
     ],
     stamp: new Date(2019, 3, 0),
-    media: [
-      {
-        txt: 'Live Site',
-        url: new URL('https://portal.visualsbyimpulse.com'),
-      },
-      ac,
-    ],
+    media: [ac],
   },
 ];
